@@ -1,0 +1,35 @@
+﻿@using Explosives.Models
+@model LoginPO
+@{
+    ViewBag.Title = "Login";
+
+}
+
+@if (TempData.ContainsKey("Message"))
+{
+    <div class="alert alert-danger" style="margin-top:25px">
+        @TempData["Message"]
+    </div>
+}
+
+<h2>Login</h2>
+
+@using (Html.BeginForm("Login", "Account", FormMethod.Post))
+{
+    <div class="form-horizontal">
+        @Html.LabelFor(model => Model.Username)
+        <div class="form-group">
+            @Html.TextBoxFor(model => Model.Username, new { @class = "form-control" })
+            @Html.ValidationMessageFor(model => Model.Username, "", new { @class = "label label-danger" })
+        </div>
+    </div>
+
+    <div class="form-horizontal">
+        @Html.LabelFor(model => Model.Password)
+        <div class="form-group">
+            @Html.PasswordFor(model => Model.Password, new { @class = "form-control" })
+            @Html.ValidationMessageFor(model => Model.Password, "", new { @class = "label label-danger" })
+        </div>
+    </div>
+    <input type="submit" value="Login" id="btnSubmit" />
+}

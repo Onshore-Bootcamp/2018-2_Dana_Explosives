@@ -1,0 +1,43 @@
+﻿@using Explosives.Models
+
+@model  VideosPO
+
+@{
+    ViewBag.Title = "UploadFile";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h2>Upload Video</h2>
+
+@using (Html.BeginForm("UploadFile", "Videos", FormMethod.Post, new { enctype = "multipart/form-data" }))
+{
+    @Html.HiddenFor(model => Model.MunitionID)
+    @Html.HiddenFor(model => Model.VideoPath)
+
+    <div class="form-horizontal">
+        @Html.Label("File Path")
+        <div class="form-group">
+            <input type="file" name="uploadedFile" />
+        </div>
+
+        <div class="form-horizontal">
+            @Html.LabelFor(model => Model.VideoName)
+            <div class="form-group">
+                @Html.TextBoxFor(model => Model.VideoName, new { @class = "form-control" })
+                @Html.ValidationMessageFor(model => Model.VideoName, "", new { @class = "label label-danger" })
+            </div>
+        </div>
+
+
+        <div class="form-horizontal">
+            @Html.LabelFor(model => Model.VideoDescription)
+            <div class="form-group">
+                @Html.TextBoxFor(model => Model.VideoDescription, new { @class = "form-control" })
+                @Html.ValidationMessageFor(model => Model.VideoDescription, "", new { @class = "label label-danger" })
+            </div>
+        </div>
+
+
+        <input type="submit" value="Upload" />
+    </div>
+}

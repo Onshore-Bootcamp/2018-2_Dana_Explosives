@@ -1,0 +1,35 @@
+﻿@using Explosives.Models
+@model MunitionsPO
+
+@{
+    ViewBag.Title = "Update";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h2>Update Munition</h2>
+
+@using (Html.BeginForm("Update", "Munitions", FormMethod.Post))
+{
+    @* HiddenFor things user cannot see but need passed *@
+    @Html.HiddenFor(model => Model.TopicID)
+    @Html.HiddenFor(model => Model.MunitionID)
+
+    @* Layout for updating munition *@
+    <div class="form-horizontal">
+        @Html.LabelFor(model => Model.Munition)
+        <div class="form-group">
+            @Html.TextBoxFor(model => Model.Munition, new { @class = "form-control" })
+            @Html.ValidationMessageFor(model => Model.Munition, "", new { @class = "label label-danger" })
+        </div>
+    </div>
+    <div class="form-horizontal">
+        @Html.LabelFor(model => Model.Description)
+        <div class="form-group">
+            @Html.TextBoxFor(model => Model.Description, new { @class = "form-control" })
+            @Html.ValidationMessageFor(model => Model.Description, "", new { @class = "label label-danger" })
+        </div>
+    </div>
+
+    @* Submit button at bottom of form *@
+    <input type="submit" value="Update Munition" id="btnSubmit" />
+}

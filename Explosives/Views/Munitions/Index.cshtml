@@ -1,0 +1,111 @@
+﻿@using Explosives.Models
+@using Business_Layer.Models
+
+@model List<MunitionsPO>
+
+@{
+    ViewBag.Title = "Index";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+@* TempData messages *@
+@if (TempData.ContainsKey("Message"))
+{
+    <div class="alert alert-success" style="margin-top:25px">
+        @TempData["Message"]
+    </div>
+}
+else if (TempData.ContainsKey("ErrorMessage"))
+{
+    <div class="alert alert-danger" style="margin-top:25px">
+        @TempData["ErrorMessage"]
+    </div>
+}
+
+@* Header for munitions to know what topic they're in *@
+<h2>@ViewBag.Topic</h2>
+
+@* Checking Session for permissions to create a munition *@
+@if (Session["RoleId"] != null && ((int)Session["RoleId"] == 1 || (int)Session["RoleId"] == 2))
+{
+    @Html.ActionLink("Create New Munition ", "Create", "Munitions", new { topicID = Model[0].TopicID }, null)
+}
+
+<table class="table table-striped table-hover">
+    <thead>
+        <tr>
+            <th>
+                Munition
+            </th>
+            <th>
+                Description
+            </th>
+            <th>
+                Number of Uploads
+            </th>
+            <th>
+                Videos
+            </th>
+            @if (Session["RoleId"] != null && ((int)Session["RoleId"] == 1 || (int)Session["RoleId"] == 2))
+            {
+                <th>
+                    Administrative Actions
+                </th>
+            }
+        </tr>
+    </thead>
+    <tbody>
+        @* Checking Model *@
+        @if (Model != null && Model.Count > 0)
+        {
+            foreach (MunitionsPO item in Model)
+            {
+                <tr>
+                    <td>
+                        @item.Munition
+                    </td>
+                    <td>
+                        @item.Description
+                    </td>
+                    <td>
+                        @* Meaningful Calculation *@
+                        @if (ViewBag.Videos != null)
+                        {
+                            foreach (MunitionBO munition in ViewBag.Videos)
+                            {
+                                if (munition.MunitionID == item.MunitionID)
+                                {
+                                    <div>
+                                        @munition.VideoCount
+                                    </div>
+                                }
+                            }
+                        }
+                    </td>
+                    <td>
+                        @* Anyone can view videos *@
+                        @Html.ActionLink(" Videos ", "Index", "Videos", new { topicID = item.TopicID, munitionID = item.MunitionID }, null)
+                    </td>
+                    <td>
+                        @* Checking Session for permissions to update and delete a munition *@
+                        @if (Session["RoleId"] != null && ((int)Session["RoleId"] == 1 || (int)Session["RoleId"] == 2))
+                        {
+                            @Html.ActionLink(" Update  ", "Update", "Munitions", new { topicID = item.TopicID, munitionID = item.MunitionID }, null)
+                            @Html.ActionLink("  Delete ", "Delete", "Munitions", new { topicID = item.TopicID, munitionID = item.MunitionID }, null)
+                        }
+                    </td>
+                </tr>
+            }
+        }
+        @* Show error message if Model check returned false *@
+        else if (TempData.ContainsKey("ErrorMessage"))
+        {
+            <tr>
+                <td class="alert alert-danger" style="margin-top:25px">
+                    @TempData["ErrorMessage"]
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>
+

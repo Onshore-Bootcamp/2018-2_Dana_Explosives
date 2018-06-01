@@ -1,0 +1,30 @@
+﻿@using Explosives.Models
+@model VideosPO
+@{
+    ViewBag.Title = "Update";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h2>Update</h2>
+@using (Html.BeginForm("Update", "Videos", FormMethod.Post))
+{
+    @Html.HiddenFor(model => Model.MunitionID)
+    @Html.HiddenFor(model => Model.VideoID)
+
+    <div class="form-horizontal">
+        @Html.LabelFor(model => Model.VideoName)
+        <div class="form-group">
+            @Html.TextBoxFor(model => Model.VideoName, new { @class = "form-control" })
+            @Html.ValidationMessageFor(model => Model.VideoName, "", new { @class = "label label-danger" })
+        </div>
+    </div>
+    <div class="form-horizontal">
+        @Html.LabelFor(model => Model.VideoDescription)
+        <div class="form-group">
+            @Html.TextBoxFor(model => Model.VideoDescription, new { @class = "form-control" })
+            @Html.ValidationMessageFor(model => Model.VideoDescription, "", new { @class = "label label-danger" })
+        </div>
+    </div>
+
+    <input type="submit" value="Update Munition" id="btnSubmit" />
+}

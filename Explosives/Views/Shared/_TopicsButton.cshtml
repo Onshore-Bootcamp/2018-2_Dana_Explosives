@@ -1,0 +1,20 @@
+﻿@using DataLayer.Models
+
+@model List<TopicDO>
+
+    <div class="btn-group">
+        <button type="button" class="btn navbar-btn btn-default dropdown-toggle" data-toggle="dropdown">
+            Topics <span class="caret"></span>
+        </button>
+        <ul class="dropdown-menu">
+            @if (Model != null && Model.Count() > 0)
+            {
+                //Display topics from list of topics
+                foreach (TopicDO topic in Model)
+                {
+
+                    <li> @Html.ActionLink(topic.Topic, "Index", "Munitions", new { TopicID = topic.TopicID, Topic = topic.Topic }, null)</li>
+                }
+            }
+        </ul>
+    </div>

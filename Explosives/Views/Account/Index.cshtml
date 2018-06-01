@@ -1,0 +1,91 @@
+﻿@using Explosives.Models
+
+@model List<UserPO>
+
+@{
+    ViewBag.Title = "Index";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+@if (TempData.ContainsKey("Message"))
+{
+    <div class="alert alert-success" style="margin-top:25px">
+        @TempData["Message"]
+    </div>
+}
+else if (TempData.ContainsKey("ErrorMessage"))
+{
+    <div class="alert alert-danger" style="margin-top:25px">
+        @TempData["ErrorMessage"]
+    </div>
+}
+
+<h2>User Accounts</h2>
+
+@if (Session["RoleId"] != null && ((int)Session["RoleId"] == 1))
+{
+    <a class=" btn btn-primary" href=@Url.Action("Create", "Account") style="margin-bottom: 30px">Create New User</a>
+}
+<table class="table table-striped table-hover">
+    <thead>
+        <tr>
+            <th>
+                Username
+            </th>
+            <th>
+                First Name
+            </th>
+            <th>
+                Last Name
+            </th>
+            <th>
+                Email Address
+            </th>
+            @if (Session["RoleId"] != null && ((int)Session["RoleId"] == 1))
+            {
+                <th>
+                    Administrative Actions
+                </th>
+            }
+        </tr>
+    </thead>
+    <tbody>
+        @if (Model != null && Model.Count > 0)
+        {
+            foreach (UserPO item in Model)
+            {
+                <tr>
+                    <td>
+                        @item.Username
+                    </td>
+                    <td>
+                        @item.FirstName
+                    </td>
+                    <td>
+                        @item.LastName
+                    </td>
+                    <td>
+                        @item.Email
+                    </td>
+                    <td>
+                        @if (Session["RoleId"] != null && ((int)Session["RoleId"] == 1))
+                        {
+                            <a class=" btn btn-primary" href=@Url.Action("Update", "Account", new { userID = item.UserID }, null)>Update</a>
+                            <a class=" btn btn-danger" href=@Url.Action("Delete", "Account", new { userID = item.UserID}, null)>Delete</a>
+                        }
+                    </td>
+                </tr>
+            }
+        }
+        else if (TempData.ContainsKey("Message"))
+        {
+            <tr>
+                <td colspan="5">
+                    @TempData["Message"]
+                </td>
+            </tr>
+        }
+
+
+    </tbody>
+</table>

@@ -1,0 +1,40 @@
+﻿@using Explosives.Models
+
+@model List<VideosPO>
+
+
+@{
+    ViewBag.Title = "Index";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h2>Videos</h2>
+
+@if (Session["RoleId"] != null && ((int)Session["RoleId"] == 1 || (int)Session["RoleId"] == 2 || (int)Session["RoleId"] == 3))
+{
+    <a class="btn btn-primary" href=@Url.Action("UploadFile","Videos",  new { munitionID = ViewBag.ID}, null)>Upload Video</a>
+}
+
+@if (Model != null && Model.Count > 0)
+{
+    <div id="wrapper">
+        @foreach (VideosPO item in Model)
+        {
+            <div class="panel panel-default col-md-4">
+                <h3 style="text-align:center;">@item.VideoName</h3>
+                <video id="home1" width="350" height="300" controls="controls">
+                    <source type="video/mp4" src="@Url.Content(item.VideoPath)" />
+                </video>
+                <p>@item.VideoDescription</p>
+                @if (Session["RoleId"] != null && ((int)Session["RoleId"] == 1))
+                {
+                    <a class="btn btn-info" href=@Url.Action("Update","Videos",  new { munitionID = item.MunitionID, videoID = item.VideoID }, null)>Update</a>
+                    <a class="btn btn-danger" href=@Url.Action("Delete","Videos",  new { munitionID = item.MunitionID, videoID = item.VideoID }, null)>Delete</a>
+                }
+            </div>
+        }
+    </div>
+}
+
+
+

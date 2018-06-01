@@ -1,0 +1,535 @@
+------------------------------------------------------------------------------------------------------------------------------------------------------
+5/17/2018 2:46:57 PM - fatal - UserDAO - MapAllVideos
+Column 'Description' does not belong to table .
+   at System.Data.DataRow.GetDataColumn(String columnName)
+   at System.Data.DataRow.get_Item(String columnName)
+   at DataLayer.VideosDAO.MapAllVideos(DataRow dataRow) in C:\Users\Dana Marie\source\repos\Explosives\DataLayer\VideosDAO.cs:line 97
+------------------------------------------------------------------------------------------------------------------------------------------------------
+5/17/2018 2:46:58 PM - fatal - VideosDAO - ViewAllSubtopicVideos
+Column 'Description' does not belong to table .
+   at DataLayer.VideosDAO.MapAllVideos(DataRow dataRow) in C:\Users\Dana Marie\source\repos\Explosives\DataLayer\VideosDAO.cs:line 106
+   at DataLayer.VideosDAO.ViewVideos(Int64 MunitionID) in C:\Users\Dana Marie\source\repos\Explosives\DataLayer\VideosDAO.cs:line 72
+------------------------------------------------------------------------------------------------------------------------------------------------------
+5/17/2018 2:47:34 PM - fatal - UserDAO - MapAllVideos
+Column 'Description' does not belong to table .
+   at System.Data.DataRow.GetDataColumn(String columnName)
+   at System.Data.DataRow.get_Item(String columnName)
+   at DataLayer.VideosDAO.MapAllVideos(DataRow dataRow) in C:\Users\Dana Marie\source\repos\Explosives\DataLayer\VideosDAO.cs:line 97
+------------------------------------------------------------------------------------------------------------------------------------------------------
+5/17/2018 2:47:34 PM - fatal - VideosDAO - ViewAllSubtopicVideos
+Column 'Description' does not belong to table .
+   at DataLayer.VideosDAO.MapAllVideos(DataRow dataRow) in C:\Users\Dana Marie\source\repos\Explosives\DataLayer\VideosDAO.cs:line 106
+   at DataLayer.VideosDAO.ViewVideos(Int64 MunitionID) in C:\Users\Dana Marie\source\repos\Explosives\DataLayer\VideosDAO.cs:line 72
+------------------------------------------------------------------------------------------------------------------------------------------------------
+5/17/2018 2:52:04 PM - fatal - UserDAO - MapAllVideos
+Column 'Description' does not belong to table .
+   at System.Data.DataRow.GetDataColumn(String columnName)
+   at System.Data.DataRow.get_Item(String columnName)
+   at DataLayer.VideosDAO.MapAllVideos(DataRow dataRow) in C:\Users\Dana Marie\source\repos\Explosives\DataLayer\VideosDAO.cs:line 97
+------------------------------------------------------------------------------------------------------------------------------------------------------
+5/17/2018 2:52:04 PM - fatal - VideosDAO - ViewAllSubtopicVideos
+Column 'Description' does not belong to table .
+   at DataLayer.VideosDAO.MapAllVideos(DataRow dataRow) in C:\Users\Dana Marie\source\repos\Explosives\DataLayer\VideosDAO.cs:line 106
+   at DataLayer.VideosDAO.ViewVideos(Int64 MunitionID) in C:\Users\Dana Marie\source\repos\Explosives\DataLayer\VideosDAO.cs:line 72
+------------------------------------------------------------------------------------------------------------------------------------------------------
+5/17/2018 3:12:50 PM - fatal - UserDAO - MapAllVideos
+Column 'Description' does not belong to table .
+   at System.Data.DataRow.GetDataColumn(String columnName)
+   at System.Data.DataRow.get_Item(String columnName)
+   at DataLayer.VideosDAO.MapAllVideos(DataRow dataRow) in C:\Users\Dana Marie\source\repos\Explosives\DataLayer\VideosDAO.cs:line 97
+------------------------------------------------------------------------------------------------------------------------------------------------------
+5/17/2018 3:12:50 PM - fatal - VideosDAO - ViewAllSubtopicVideos
+Column 'Description' does not belong to table .
+   at DataLayer.VideosDAO.MapAllVideos(DataRow dataRow) in C:\Users\Dana Marie\source\repos\Explosives\DataLayer\VideosDAO.cs:line 106
+   at DataLayer.VideosDAO.ViewVideos(Int64 MunitionID) in C:\Users\Dana Marie\source\repos\Explosives\DataLayer\VideosDAO.cs:line 72
+------------------------------------------------------------------------------------------------------------------------------------------------------
+5/17/2018 3:14:38 PM - fatal - UserDAO - MapAllVideos
+Column 'Description' does not belong to table .
+   at System.Data.DataRow.GetDataColumn(String columnName)
+   at System.Data.DataRow.get_Item(String columnName)
+   at DataLayer.VideosDAO.MapAllVideos(DataRow dataRow) in C:\Users\Dana Marie\source\repos\Explosives\DataLayer\VideosDAO.cs:line 97
+------------------------------------------------------------------------------------------------------------------------------------------------------
+5/17/2018 3:14:38 PM - fatal - VideosDAO - ViewAllSubtopicVideos
+Column 'Description' does not belong to table .
+   at DataLayer.VideosDAO.MapAllVideos(DataRow dataRow) in C:\Users\Dana Marie\source\repos\Explosives\DataLayer\VideosDAO.cs:line 106
+   at DataLayer.VideosDAO.ViewVideos(Int64 MunitionID) in C:\Users\Dana Marie\source\repos\Explosives\DataLayer\VideosDAO.cs:line 72
+------------------------------------------------------------------------------------------------------------------------------------------------------
+5/17/2018 3:14:39 PM - fatal - UserDAO - MapAllVideos
+Column 'Description' does not belong to table .
+   at System.Data.DataRow.GetDataColumn(String columnName)
+   at System.Data.DataRow.get_Item(String columnName)
+   at DataLayer.VideosDAO.MapAllVideos(DataRow dataRow) in C:\Users\Dana Marie\source\repos\Explosives\DataLayer\VideosDAO.cs:line 97
+------------------------------------------------------------------------------------------------------------------------------------------------------
+5/17/2018 3:14:39 PM - fatal - VideosDAO - ViewAllSubtopicVideos
+Column 'Description' does not belong to table .
+   at DataLayer.VideosDAO.MapAllVideos(DataRow dataRow) in C:\Users\Dana Marie\source\repos\Explosives\DataLayer\VideosDAO.cs:line 106
+   at DataLayer.VideosDAO.ViewVideos(Int64 MunitionID) in C:\Users\Dana Marie\source\repos\Explosives\DataLayer\VideosDAO.cs:line 72
+------------------------------------------------------------------------------------------------------------------------------------------------------
+5/17/2018 3:14:44 PM - fatal - UserDAO - MapAllVideos
+Column 'Description' does not belong to table .
+   at System.Data.DataRow.GetDataColumn(String columnName)
+   at System.Data.DataRow.get_Item(String columnName)
+   at DataLayer.VideosDAO.MapAllVideos(DataRow dataRow) in C:\Users\Dana Marie\source\repos\Explosives\DataLayer\VideosDAO.cs:line 97
+------------------------------------------------------------------------------------------------------------------------------------------------------
+5/17/2018 3:14:44 PM - fatal - VideosDAO - ViewAllSubtopicVideos
+Column 'Description' does not belong to table .
+   at DataLayer.VideosDAO.MapAllVideos(DataRow dataRow) in C:\Users\Dana Marie\source\repos\Explosives\DataLayer\VideosDAO.cs:line 106
+   at DataLayer.VideosDAO.ViewVideos(Int64 MunitionID) in C:\Users\Dana Marie\source\repos\Explosives\DataLayer\VideosDAO.cs:line 72
+------------------------------------------------------------------------------------------------------------------------------------------------------
+5/17/2018 3:37:35 PM - fatal - UserDAO - MapAllVideos
+Column 'Description' does not belong to table .
+   at System.Data.DataRow.GetDataColumn(String columnName)
+   at System.Data.DataRow.get_Item(String columnName)
+   at DataLayer.VideosDAO.MapAllVideos(DataRow dataRow) in C:\Users\Dana Marie\source\repos\Explosives\DataLayer\VideosDAO.cs:line 97
+------------------------------------------------------------------------------------------------------------------------------------------------------
+5/17/2018 3:37:35 PM - fatal - VideosDAO - ViewAllSubtopicVideos
+Column 'Description' does not belong to table .
+   at DataLayer.VideosDAO.MapAllVideos(DataRow dataRow) in C:\Users\Dana Marie\source\repos\Explosives\DataLayer\VideosDAO.cs:line 106
+   at DataLayer.VideosDAO.ViewVideos(Int64 MunitionID) in C:\Users\Dana Marie\source\repos\Explosives\DataLayer\VideosDAO.cs:line 72
+------------------------------------------------------------------------------------------------------------------------------------------------------
+5/17/2018 3:41:15 PM - fatal - UserDAO - MapAllVideos
+Column 'Description' does not belong to table .
+   at System.Data.DataRow.GetDataColumn(String columnName)
+   at System.Data.DataRow.get_Item(String columnName)
+   at DataLayer.VideosDAO.MapAllVideos(DataRow dataRow) in C:\Users\Dana Marie\source\repos\Explosives\DataLayer\VideosDAO.cs:line 97
+------------------------------------------------------------------------------------------------------------------------------------------------------
+5/17/2018 3:41:15 PM - fatal - VideosDAO - ViewAllSubtopicVideos
+Column 'Description' does not belong to table .
+   at DataLayer.VideosDAO.MapAllVideos(DataRow dataRow) in C:\Users\Dana Marie\source\repos\Explosives\DataLayer\VideosDAO.cs:line 106
+   at DataLayer.VideosDAO.ViewVideos(Int64 MunitionID) in C:\Users\Dana Marie\source\repos\Explosives\DataLayer\VideosDAO.cs:line 72
+------------------------------------------------------------------------------------------------------------------------------------------------------
+5/17/2018 3:41:17 PM - fatal - UserDAO - MapAllVideos
+Column 'Description' does not belong to table .
+   at System.Data.DataRow.GetDataColumn(String columnName)
+   at System.Data.DataRow.get_Item(String columnName)
+   at DataLayer.VideosDAO.MapAllVideos(DataRow dataRow) in C:\Users\Dana Marie\source\repos\Explosives\DataLayer\VideosDAO.cs:line 97
+------------------------------------------------------------------------------------------------------------------------------------------------------
+5/17/2018 3:41:17 PM - fatal - VideosDAO - ViewAllSubtopicVideos
+Column 'Description' does not belong to table .
+   at DataLayer.VideosDAO.MapAllVideos(DataRow dataRow) in C:\Users\Dana Marie\source\repos\Explosives\DataLayer\VideosDAO.cs:line 106
+   at DataLayer.VideosDAO.ViewVideos(Int64 MunitionID) in C:\Users\Dana Marie\source\repos\Explosives\DataLayer\VideosDAO.cs:line 72
+------------------------------------------------------------------------------------------------------------------------------------------------------
+5/17/2018 3:41:17 PM - fatal - UserDAO - MapAllVideos
+Column 'Description' does not belong to table .
+   at System.Data.DataRow.GetDataColumn(String columnName)
+   at System.Data.DataRow.get_Item(String columnName)
+   at DataLayer.VideosDAO.MapAllVideos(DataRow dataRow) in C:\Users\Dana Marie\source\repos\Explosives\DataLayer\VideosDAO.cs:line 97
+------------------------------------------------------------------------------------------------------------------------------------------------------
+5/17/2018 3:41:17 PM - fatal - VideosDAO - ViewAllSubtopicVideos
+Column 'Description' does not belong to table .
+   at DataLayer.VideosDAO.MapAllVideos(DataRow dataRow) in C:\Users\Dana Marie\source\repos\Explosives\DataLayer\VideosDAO.cs:line 106
+   at DataLayer.VideosDAO.ViewVideos(Int64 MunitionID) in C:\Users\Dana Marie\source\repos\Explosives\DataLayer\VideosDAO.cs:line 72
+------------------------------------------------------------------------------------------------------------------------------------------------------
+5/17/2018 3:42:18 PM - fatal - UserDAO - MapAllVideos
+Column 'Description' does not belong to table .
+   at System.Data.DataRow.GetDataColumn(String columnName)
+   at System.Data.DataRow.get_Item(String columnName)
+   at DataLayer.VideosDAO.MapAllVideos(DataRow dataRow) in C:\Users\Dana Marie\source\repos\Explosives\DataLayer\VideosDAO.cs:line 97
+------------------------------------------------------------------------------------------------------------------------------------------------------
+5/17/2018 3:42:18 PM - fatal - VideosDAO - ViewAllSubtopicVideos
+Column 'Description' does not belong to table .
+   at DataLayer.VideosDAO.MapAllVideos(DataRow dataRow) in C:\Users\Dana Marie\source\repos\Explosives\DataLayer\VideosDAO.cs:line 106
+   at DataLayer.VideosDAO.ViewVideos(Int64 MunitionID) in C:\Users\Dana Marie\source\repos\Explosives\DataLayer\VideosDAO.cs:line 72
+------------------------------------------------------------------------------------------------------------------------------------------------------
+5/17/2018 3:42:19 PM - fatal - UserDAO - MapAllVideos
+Column 'Description' does not belong to table .
+   at System.Data.DataRow.GetDataColumn(String columnName)
+   at System.Data.DataRow.get_Item(String columnName)
+   at DataLayer.VideosDAO.MapAllVideos(DataRow dataRow) in C:\Users\Dana Marie\source\repos\Explosives\DataLayer\VideosDAO.cs:line 97
+------------------------------------------------------------------------------------------------------------------------------------------------------
+5/17/2018 3:42:19 PM - fatal - VideosDAO - ViewAllSubtopicVideos
+Column 'Description' does not belong to table .
+   at DataLayer.VideosDAO.MapAllVideos(DataRow dataRow) in C:\Users\Dana Marie\source\repos\Explosives\DataLayer\VideosDAO.cs:line 106
+   at DataLayer.VideosDAO.ViewVideos(Int64 MunitionID) in C:\Users\Dana Marie\source\repos\Explosives\DataLayer\VideosDAO.cs:line 72
+------------------------------------------------------------------------------------------------------------------------------------------------------
+5/17/2018 3:42:20 PM - fatal - UserDAO - MapAllVideos
+Column 'Description' does not belong to table .
+   at System.Data.DataRow.GetDataColumn(String columnName)
+   at System.Data.DataRow.get_Item(String columnName)
+   at DataLayer.VideosDAO.MapAllVideos(DataRow dataRow) in C:\Users\Dana Marie\source\repos\Explosives\DataLayer\VideosDAO.cs:line 97
+------------------------------------------------------------------------------------------------------------------------------------------------------
+5/17/2018 3:42:20 PM - fatal - VideosDAO - ViewAllSubtopicVideos
+Column 'Description' does not belong to table .
+   at DataLayer.VideosDAO.MapAllVideos(DataRow dataRow) in C:\Users\Dana Marie\source\repos\Explosives\DataLayer\VideosDAO.cs:line 106
+   at DataLayer.VideosDAO.ViewVideos(Int64 MunitionID) in C:\Users\Dana Marie\source\repos\Explosives\DataLayer\VideosDAO.cs:line 72
+------------------------------------------------------------------------------------------------------------------------------------------------------
+5/17/2018 3:42:33 PM - fatal - UserDAO - MapAllVideos
+Column 'Description' does not belong to table .
+   at System.Data.DataRow.GetDataColumn(String columnName)
+   at System.Data.DataRow.get_Item(String columnName)
+   at DataLayer.VideosDAO.MapAllVideos(DataRow dataRow) in C:\Users\Dana Marie\source\repos\Explosives\DataLayer\VideosDAO.cs:line 97
+------------------------------------------------------------------------------------------------------------------------------------------------------
+5/17/2018 3:42:33 PM - fatal - VideosDAO - ViewAllSubtopicVideos
+Column 'Description' does not belong to table .
+   at DataLayer.VideosDAO.MapAllVideos(DataRow dataRow) in C:\Users\Dana Marie\source\repos\Explosives\DataLayer\VideosDAO.cs:line 106
+   at DataLayer.VideosDAO.ViewVideos(Int64 MunitionID) in C:\Users\Dana Marie\source\repos\Explosives\DataLayer\VideosDAO.cs:line 72
+------------------------------------------------------------------------------------------------------------------------------------------------------
+5/17/2018 3:45:10 PM - fatal - UserDAO - MapAllVideos
+Column 'Description' does not belong to table .
+   at System.Data.DataRow.GetDataColumn(String columnName)
+   at System.Data.DataRow.get_Item(String columnName)
+   at DataLayer.VideosDAO.MapAllVideos(DataRow dataRow) in C:\Users\Dana Marie\source\repos\Explosives\DataLayer\VideosDAO.cs:line 97
+------------------------------------------------------------------------------------------------------------------------------------------------------
+5/17/2018 3:45:10 PM - fatal - VideosDAO - ViewAllSubtopicVideos
+Column 'Description' does not belong to table .
+   at DataLayer.VideosDAO.MapAllVideos(DataRow dataRow) in C:\Users\Dana Marie\source\repos\Explosives\DataLayer\VideosDAO.cs:line 106
+   at DataLayer.VideosDAO.ViewVideos(Int64 MunitionID) in C:\Users\Dana Marie\source\repos\Explosives\DataLayer\VideosDAO.cs:line 72
+------------------------------------------------------------------------------------------------------------------------------------------------------
+5/17/2018 3:47:54 PM - fatal - UserDAO - MapAllVideos
+Column 'Description' does not belong to table .
+   at System.Data.DataRow.GetDataColumn(String columnName)
+   at System.Data.DataRow.get_Item(String columnName)
+   at DataLayer.VideosDAO.MapAllVideos(DataRow dataRow) in C:\Users\Dana Marie\source\repos\Explosives\DataLayer\VideosDAO.cs:line 97
+------------------------------------------------------------------------------------------------------------------------------------------------------
+5/17/2018 3:47:54 PM - fatal - VideosDAO - ViewAllSubtopicVideos
+Column 'Description' does not belong to table .
+   at DataLayer.VideosDAO.MapAllVideos(DataRow dataRow) in C:\Users\Dana Marie\source\repos\Explosives\DataLayer\VideosDAO.cs:line 106
+   at DataLayer.VideosDAO.ViewVideos(Int64 MunitionID) in C:\Users\Dana Marie\source\repos\Explosives\DataLayer\VideosDAO.cs:line 72
+------------------------------------------------------------------------------------------------------------------------------------------------------
+5/17/2018 3:48:02 PM - fatal - UserDAO - MapAllVideos
+Column 'Description' does not belong to table .
+   at System.Data.DataRow.GetDataColumn(String columnName)
+   at System.Data.DataRow.get_Item(String columnName)
+   at DataLayer.VideosDAO.MapAllVideos(DataRow dataRow) in C:\Users\Dana Marie\source\repos\Explosives\DataLayer\VideosDAO.cs:line 97
+------------------------------------------------------------------------------------------------------------------------------------------------------
+5/17/2018 3:48:02 PM - fatal - VideosDAO - ViewAllSubtopicVideos
+Column 'Description' does not belong to table .
+   at DataLayer.VideosDAO.MapAllVideos(DataRow dataRow) in C:\Users\Dana Marie\source\repos\Explosives\DataLayer\VideosDAO.cs:line 106
+   at DataLayer.VideosDAO.ViewVideos(Int64 MunitionID) in C:\Users\Dana Marie\source\repos\Explosives\DataLayer\VideosDAO.cs:line 72
+------------------------------------------------------------------------------------------------------------------------------------------------------
+5/17/2018 3:49:52 PM - fatal - UserDAO - MapAllVideos
+Column 'Description' does not belong to table .
+   at System.Data.DataRow.GetDataColumn(String columnName)
+   at System.Data.DataRow.get_Item(String columnName)
+   at DataLayer.VideosDAO.MapAllVideos(DataRow dataRow) in C:\Users\Dana Marie\source\repos\Explosives\DataLayer\VideosDAO.cs:line 97
+------------------------------------------------------------------------------------------------------------------------------------------------------
+5/17/2018 3:49:52 PM - fatal - VideosDAO - ViewAllSubtopicVideos
+Column 'Description' does not belong to table .
+   at DataLayer.VideosDAO.MapAllVideos(DataRow dataRow) in C:\Users\Dana Marie\source\repos\Explosives\DataLayer\VideosDAO.cs:line 106
+   at DataLayer.VideosDAO.ViewVideos(Int64 MunitionID) in C:\Users\Dana Marie\source\repos\Explosives\DataLayer\VideosDAO.cs:line 72
+------------------------------------------------------------------------------------------------------------------------------------------------------
+5/17/2018 3:49:58 PM - fatal - UserDAO - MapAllVideos
+Column 'Description' does not belong to table .
+   at System.Data.DataRow.GetDataColumn(String columnName)
+   at System.Data.DataRow.get_Item(String columnName)
+   at DataLayer.VideosDAO.MapAllVideos(DataRow dataRow) in C:\Users\Dana Marie\source\repos\Explosives\DataLayer\VideosDAO.cs:line 97
+------------------------------------------------------------------------------------------------------------------------------------------------------
+5/17/2018 3:49:58 PM - fatal - VideosDAO - ViewAllSubtopicVideos
+Column 'Description' does not belong to table .
+   at DataLayer.VideosDAO.MapAllVideos(DataRow dataRow) in C:\Users\Dana Marie\source\repos\Explosives\DataLayer\VideosDAO.cs:line 106
+   at DataLayer.VideosDAO.ViewVideos(Int64 MunitionID) in C:\Users\Dana Marie\source\repos\Explosives\DataLayer\VideosDAO.cs:line 72
+------------------------------------------------------------------------------------------------------------------------------------------------------
+5/18/2018 10:41:08 AM - fatal - VideosDAO - CreateNewVideo
+Procedure or function UPLOAD_VIDEO has too many arguments specified.
+   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString, Boolean isInternal, Boolean forDescribeParameterEncryption)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, Boolean inRetry, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   at System.Data.SqlClient.SqlCommand.InternalExecuteNonQuery(TaskCompletionSource`1 completion, String methodName, Boolean sendToPipe, Int32 timeout, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   at System.Data.SqlClient.SqlCommand.ExecuteNonQuery()
+   at DataLayer.VideosDAO.UploadVideo(VideosDO video) in C:\Users\Dana Marie\source\repos\Explosives\DataLayer\VideosDAO.cs:line 41
+------------------------------------------------------------------------------------------------------------------------------------------------------
+5/18/2018 10:42:54 AM - fatal - VideosDAO - CreateNewVideo
+Procedure or function UPLOAD_VIDEO has too many arguments specified.
+   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString, Boolean isInternal, Boolean forDescribeParameterEncryption)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, Boolean inRetry, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   at System.Data.SqlClient.SqlCommand.InternalExecuteNonQuery(TaskCompletionSource`1 completion, String methodName, Boolean sendToPipe, Int32 timeout, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   at System.Data.SqlClient.SqlCommand.ExecuteNonQuery()
+   at DataLayer.VideosDAO.UploadVideo(VideosDO video) in C:\Users\Dana Marie\source\repos\Explosives\DataLayer\VideosDAO.cs:line 41
+------------------------------------------------------------------------------------------------------------------------------------------------------
+5/18/2018 12:45:38 PM - fatal - VideosDAO - CreateNewVideo
+Procedure or function 'UPLOAD_VIDEO' expects parameter '@MunitionID', which was not supplied.
+   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString, Boolean isInternal, Boolean forDescribeParameterEncryption)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, Boolean inRetry, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   at System.Data.SqlClient.SqlCommand.InternalExecuteNonQuery(TaskCompletionSource`1 completion, String methodName, Boolean sendToPipe, Int32 timeout, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   at System.Data.SqlClient.SqlCommand.ExecuteNonQuery()
+   at DataLayer.VideosDAO.UploadVideo(VideosDO video) in C:\Users\Dana Marie\source\repos\Explosives\DataLayer\VideosDAO.cs:line 39
+------------------------------------------------------------------------------------------------------------------------------------------------------
+5/18/2018 12:46:48 PM - fatal - VideosDAO - CreateNewVideo
+Procedure or function 'UPLOAD_VIDEO' expects parameter '@MunitionID', which was not supplied.
+   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString, Boolean isInternal, Boolean forDescribeParameterEncryption)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, Boolean inRetry, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   at System.Data.SqlClient.SqlCommand.InternalExecuteNonQuery(TaskCompletionSource`1 completion, String methodName, Boolean sendToPipe, Int32 timeout, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   at System.Data.SqlClient.SqlCommand.ExecuteNonQuery()
+   at DataLayer.VideosDAO.UploadVideo(VideosDO video) in C:\Users\Dana Marie\source\repos\Explosives\DataLayer\VideosDAO.cs:line 39
+------------------------------------------------------------------------------------------------------------------------------------------------------
+5/18/2018 12:48:16 PM - fatal - VideosDAO - CreateNewVideo
+Procedure or function 'UPLOAD_VIDEO' expects parameter '@MunitionID', which was not supplied.
+   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString, Boolean isInternal, Boolean forDescribeParameterEncryption)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, Boolean inRetry, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   at System.Data.SqlClient.SqlCommand.InternalExecuteNonQuery(TaskCompletionSource`1 completion, String methodName, Boolean sendToPipe, Int32 timeout, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   at System.Data.SqlClient.SqlCommand.ExecuteNonQuery()
+   at DataLayer.VideosDAO.UploadVideo(VideosDO video) in C:\Users\Dana Marie\source\repos\Explosives\DataLayer\VideosDAO.cs:line 39
+------------------------------------------------------------------------------------------------------------------------------------------------------
+5/19/2018 9:39:42 PM - fatal - UserDAO - MapAllVideos
+Column 'MunitionID' does not belong to table .
+   at System.Data.DataRow.GetDataColumn(String columnName)
+   at System.Data.DataRow.get_Item(String columnName)
+   at DataLayer.VideosDAO.MapAllVideos(DataRow dataRow) in C:\Users\Dana Marie\source\repos\Explosives\DataLayer\VideosDAO.cs:line 97
+------------------------------------------------------------------------------------------------------------------------------------------------------
+5/19/2018 9:39:42 PM - fatal - MunitionsDAO - ViewMunitionsByID
+Column 'MunitionID' does not belong to table .
+   at DataLayer.VideosDAO.MapAllVideos(DataRow dataRow) in C:\Users\Dana Marie\source\repos\Explosives\DataLayer\VideosDAO.cs:line 105
+   at DataLayer.VideosDAO.ViewVideosByID(Int64 videoID) in C:\Users\Dana Marie\source\repos\Explosives\DataLayer\VideosDAO.cs:line 134
+------------------------------------------------------------------------------------------------------------------------------------------------------
+5/19/2018 9:42:03 PM - fatal - UserDAO - MapAllVideos
+Column 'MunitionID' does not belong to table .
+   at System.Data.DataRow.GetDataColumn(String columnName)
+   at System.Data.DataRow.get_Item(String columnName)
+   at DataLayer.VideosDAO.MapAllVideos(DataRow dataRow) in C:\Users\Dana Marie\source\repos\Explosives\DataLayer\VideosDAO.cs:line 97
+------------------------------------------------------------------------------------------------------------------------------------------------------
+5/19/2018 9:42:03 PM - fatal - MunitionsDAO - ViewMunitionsByID
+Column 'MunitionID' does not belong to table .
+   at DataLayer.VideosDAO.MapAllVideos(DataRow dataRow) in C:\Users\Dana Marie\source\repos\Explosives\DataLayer\VideosDAO.cs:line 105
+   at DataLayer.VideosDAO.ViewVideosByID(Int64 videoID) in C:\Users\Dana Marie\source\repos\Explosives\DataLayer\VideosDAO.cs:line 134
+------------------------------------------------------------------------------------------------------------------------------------------------------
+5/19/2018 10:29:03 PM - fatal - UserDAO - MapAllVideos
+Column 'MunitionID' does not belong to table .
+   at System.Data.DataRow.GetDataColumn(String columnName)
+   at System.Data.DataRow.get_Item(String columnName)
+   at DataLayer.VideosDAO.MapAllVideos(DataRow dataRow)
+------------------------------------------------------------------------------------------------------------------------------------------------------
+5/19/2018 10:29:03 PM - fatal - MunitionsDAO - ViewMunitionsByID
+Column 'MunitionID' does not belong to table .
+   at DataLayer.VideosDAO.MapAllVideos(DataRow dataRow)
+   at DataLayer.VideosDAO.ViewVideosByID(Int64 videoID)
+------------------------------------------------------------------------------------------------------------------------------------------------------
+5/20/2018 4:27:48 PM - fatal - UserDAO - MapAllVideos
+Column 'MunitionID' does not belong to table .
+   at System.Data.DataRow.GetDataColumn(String columnName)
+   at System.Data.DataRow.get_Item(String columnName)
+   at DataLayer.VideosDAO.MapAllVideos(DataRow dataRow) in C:\Users\Dana Marie\source\repos\Explosives\DataLayer\VideosDAO.cs:line 97
+------------------------------------------------------------------------------------------------------------------------------------------------------
+5/20/2018 4:27:48 PM - fatal - MunitionsDAO - ViewMunitionsByID
+Column 'MunitionID' does not belong to table .
+   at DataLayer.VideosDAO.MapAllVideos(DataRow dataRow) in C:\Users\Dana Marie\source\repos\Explosives\DataLayer\VideosDAO.cs:line 105
+   at DataLayer.VideosDAO.ViewVideosByID(Int64 videoID) in C:\Users\Dana Marie\source\repos\Explosives\DataLayer\VideosDAO.cs:line 134
+------------------------------------------------------------------------------------------------------------------------------------------------------
+5/20/2018 4:27:56 PM - fatal - UserDAO - MapAllVideos
+Column 'MunitionID' does not belong to table .
+   at System.Data.DataRow.GetDataColumn(String columnName)
+   at System.Data.DataRow.get_Item(String columnName)
+   at DataLayer.VideosDAO.MapAllVideos(DataRow dataRow) in C:\Users\Dana Marie\source\repos\Explosives\DataLayer\VideosDAO.cs:line 97
+------------------------------------------------------------------------------------------------------------------------------------------------------
+5/20/2018 4:27:56 PM - fatal - MunitionsDAO - ViewMunitionsByID
+Column 'MunitionID' does not belong to table .
+   at DataLayer.VideosDAO.MapAllVideos(DataRow dataRow) in C:\Users\Dana Marie\source\repos\Explosives\DataLayer\VideosDAO.cs:line 105
+   at DataLayer.VideosDAO.ViewVideosByID(Int64 videoID) in C:\Users\Dana Marie\source\repos\Explosives\DataLayer\VideosDAO.cs:line 134
+------------------------------------------------------------------------------------------------------------------------------------------------------
+5/20/2018 5:18:51 PM - fatal - VideosDAO - CreateNewVideo
+Procedure or function 'UPLOAD_VIDEO' expects parameter '@VideoName', which was not supplied.
+   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString, Boolean isInternal, Boolean forDescribeParameterEncryption)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, Boolean inRetry, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   at System.Data.SqlClient.SqlCommand.InternalExecuteNonQuery(TaskCompletionSource`1 completion, String methodName, Boolean sendToPipe, Int32 timeout, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   at System.Data.SqlClient.SqlCommand.ExecuteNonQuery()
+   at DataLayer.VideosDAO.UploadVideo(VideosDO video) in C:\Users\Dana Marie\source\repos\Explosives\DataLayer\VideosDAO.cs:line 39
+------------------------------------------------------------------------------------------------------------------------------------------------------
+5/20/2018 10:08:25 PM - fatal - VideosDAO - CreateNewVideo
+Procedure or function 'UPLOAD_VIDEO' expects parameter '@VideoPath', which was not supplied.
+   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString, Boolean isInternal, Boolean forDescribeParameterEncryption)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, Boolean inRetry, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   at System.Data.SqlClient.SqlCommand.InternalExecuteNonQuery(TaskCompletionSource`1 completion, String methodName, Boolean sendToPipe, Int32 timeout, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   at System.Data.SqlClient.SqlCommand.ExecuteNonQuery()
+   at DataLayer.VideosDAO.UploadVideo(VideosDO video) in C:\Users\Dana Marie\source\repos\Explosives\DataLayer\VideosDAO.cs:line 39
+------------------------------------------------------------------------------------------------------------------------------------------------------
+5/23/2018 3:33:37 PM - fatal - VideosDAO - CreateNewVideo
+Procedure or function 'UPLOAD_VIDEO' expects parameter '@VideoName', which was not supplied.
+   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString, Boolean isInternal, Boolean forDescribeParameterEncryption)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, Boolean inRetry, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   at System.Data.SqlClient.SqlCommand.InternalExecuteNonQuery(TaskCompletionSource`1 completion, String methodName, Boolean sendToPipe, Int32 timeout, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   at System.Data.SqlClient.SqlCommand.ExecuteNonQuery()
+   at DataLayer.VideosDAO.UploadVideo(VideosDO video) in C:\Users\Dana Marie\source\repos\Explosives\DataLayer\VideosDAO.cs:line 39
+------------------------------------------------------------------------------------------------------------------------------------------------------
+5/23/2018 3:34:41 PM - fatal - VideosDAO - CreateNewVideo
+Procedure or function 'UPLOAD_VIDEO' expects parameter '@VideoName', which was not supplied.
+   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString, Boolean isInternal, Boolean forDescribeParameterEncryption)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, Boolean inRetry, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   at System.Data.SqlClient.SqlCommand.InternalExecuteNonQuery(TaskCompletionSource`1 completion, String methodName, Boolean sendToPipe, Int32 timeout, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   at System.Data.SqlClient.SqlCommand.ExecuteNonQuery()
+   at DataLayer.VideosDAO.UploadVideo(VideosDO video) in C:\Users\Dana Marie\source\repos\Explosives\DataLayer\VideosDAO.cs:line 39
+------------------------------------------------------------------------------------------------------------------------------------------------------
+5/23/2018 3:34:57 PM - fatal - VideosDAO - CreateNewVideo
+Procedure or function 'UPLOAD_VIDEO' expects parameter '@VideoName', which was not supplied.
+   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString, Boolean isInternal, Boolean forDescribeParameterEncryption)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, Boolean inRetry, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   at System.Data.SqlClient.SqlCommand.InternalExecuteNonQuery(TaskCompletionSource`1 completion, String methodName, Boolean sendToPipe, Int32 timeout, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   at System.Data.SqlClient.SqlCommand.ExecuteNonQuery()
+   at DataLayer.VideosDAO.UploadVideo(VideosDO video) in C:\Users\Dana Marie\source\repos\Explosives\DataLayer\VideosDAO.cs:line 39
+------------------------------------------------------------------------------------------------------------------------------------------------------
+5/23/2018 3:35:20 PM - fatal - VideosDAO - CreateNewVideo
+Procedure or function 'UPLOAD_VIDEO' expects parameter '@VideoName', which was not supplied.
+   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString, Boolean isInternal, Boolean forDescribeParameterEncryption)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, Boolean inRetry, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   at System.Data.SqlClient.SqlCommand.InternalExecuteNonQuery(TaskCompletionSource`1 completion, String methodName, Boolean sendToPipe, Int32 timeout, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   at System.Data.SqlClient.SqlCommand.ExecuteNonQuery()
+   at DataLayer.VideosDAO.UploadVideo(VideosDO video) in C:\Users\Dana Marie\source\repos\Explosives\DataLayer\VideosDAO.cs:line 39
+------------------------------------------------------------------------------------------------------------------------------------------------------
+5/23/2018 3:39:07 PM - fatal - VideosDAO - CreateNewVideo
+Procedure or function 'UPLOAD_VIDEO' expects parameter '@VideoName', which was not supplied.
+   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString, Boolean isInternal, Boolean forDescribeParameterEncryption)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, Boolean inRetry, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   at System.Data.SqlClient.SqlCommand.InternalExecuteNonQuery(TaskCompletionSource`1 completion, String methodName, Boolean sendToPipe, Int32 timeout, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   at System.Data.SqlClient.SqlCommand.ExecuteNonQuery()
+   at DataLayer.VideosDAO.UploadVideo(VideosDO video) in C:\Users\Dana Marie\source\repos\Explosives\DataLayer\VideosDAO.cs:line 39
+------------------------------------------------------------------------------------------------------------------------------------------------------
+5/23/2018 3:40:46 PM - fatal - VideosDAO - CreateNewVideo
+Procedure or function 'UPLOAD_VIDEO' expects parameter '@VideoName', which was not supplied.
+   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString, Boolean isInternal, Boolean forDescribeParameterEncryption)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, Boolean inRetry, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   at System.Data.SqlClient.SqlCommand.InternalExecuteNonQuery(TaskCompletionSource`1 completion, String methodName, Boolean sendToPipe, Int32 timeout, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   at System.Data.SqlClient.SqlCommand.ExecuteNonQuery()
+   at DataLayer.VideosDAO.UploadVideo(VideosDO video) in C:\Users\Dana Marie\source\repos\Explosives\DataLayer\VideosDAO.cs:line 39
+------------------------------------------------------------------------------------------------------------------------------------------------------
+5/23/2018 3:40:49 PM - fatal - VideosDAO - CreateNewVideo
+Procedure or function 'UPLOAD_VIDEO' expects parameter '@VideoName', which was not supplied.
+   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString, Boolean isInternal, Boolean forDescribeParameterEncryption)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, Boolean inRetry, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   at System.Data.SqlClient.SqlCommand.InternalExecuteNonQuery(TaskCompletionSource`1 completion, String methodName, Boolean sendToPipe, Int32 timeout, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   at System.Data.SqlClient.SqlCommand.ExecuteNonQuery()
+   at DataLayer.VideosDAO.UploadVideo(VideosDO video) in C:\Users\Dana Marie\source\repos\Explosives\DataLayer\VideosDAO.cs:line 39
+------------------------------------------------------------------------------------------------------------------------------------------------------
+5/23/2018 3:40:51 PM - fatal - VideosDAO - CreateNewVideo
+Procedure or function 'UPLOAD_VIDEO' expects parameter '@VideoName', which was not supplied.
+   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString, Boolean isInternal, Boolean forDescribeParameterEncryption)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, Boolean inRetry, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   at System.Data.SqlClient.SqlCommand.InternalExecuteNonQuery(TaskCompletionSource`1 completion, String methodName, Boolean sendToPipe, Int32 timeout, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   at System.Data.SqlClient.SqlCommand.ExecuteNonQuery()
+   at DataLayer.VideosDAO.UploadVideo(VideosDO video) in C:\Users\Dana Marie\source\repos\Explosives\DataLayer\VideosDAO.cs:line 39
+------------------------------------------------------------------------------------------------------------------------------------------------------
+5/23/2018 3:41:57 PM - fatal - VideosDAO - CreateNewVideo
+Procedure or function 'UPLOAD_VIDEO' expects parameter '@VideoName', which was not supplied.
+   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString, Boolean isInternal, Boolean forDescribeParameterEncryption)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, Boolean inRetry, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   at System.Data.SqlClient.SqlCommand.InternalExecuteNonQuery(TaskCompletionSource`1 completion, String methodName, Boolean sendToPipe, Int32 timeout, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   at System.Data.SqlClient.SqlCommand.ExecuteNonQuery()
+   at DataLayer.VideosDAO.UploadVideo(VideosDO video) in C:\Users\Dana Marie\source\repos\Explosives\DataLayer\VideosDAO.cs:line 39
+------------------------------------------------------------------------------------------------------------------------------------------------------
+5/23/2018 3:42:03 PM - fatal - VideosDAO - CreateNewVideo
+Procedure or function 'UPLOAD_VIDEO' expects parameter '@VideoName', which was not supplied.
+   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString, Boolean isInternal, Boolean forDescribeParameterEncryption)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, Boolean inRetry, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   at System.Data.SqlClient.SqlCommand.InternalExecuteNonQuery(TaskCompletionSource`1 completion, String methodName, Boolean sendToPipe, Int32 timeout, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   at System.Data.SqlClient.SqlCommand.ExecuteNonQuery()
+   at DataLayer.VideosDAO.UploadVideo(VideosDO video) in C:\Users\Dana Marie\source\repos\Explosives\DataLayer\VideosDAO.cs:line 39
+------------------------------------------------------------------------------------------------------------------------------------------------------
+5/23/2018 3:42:05 PM - fatal - VideosDAO - CreateNewVideo
+Procedure or function 'UPLOAD_VIDEO' expects parameter '@VideoName', which was not supplied.
+   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString, Boolean isInternal, Boolean forDescribeParameterEncryption)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, Boolean inRetry, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   at System.Data.SqlClient.SqlCommand.InternalExecuteNonQuery(TaskCompletionSource`1 completion, String methodName, Boolean sendToPipe, Int32 timeout, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   at System.Data.SqlClient.SqlCommand.ExecuteNonQuery()
+   at DataLayer.VideosDAO.UploadVideo(VideosDO video) in C:\Users\Dana Marie\source\repos\Explosives\DataLayer\VideosDAO.cs:line 39
+------------------------------------------------------------------------------------------------------------------------------------------------------
+5/23/2018 3:45:10 PM - fatal - VideosDAO - CreateNewVideo
+Procedure or function 'UPLOAD_VIDEO' expects parameter '@VideoName', which was not supplied.
+   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString, Boolean isInternal, Boolean forDescribeParameterEncryption)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, Boolean inRetry, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   at System.Data.SqlClient.SqlCommand.InternalExecuteNonQuery(TaskCompletionSource`1 completion, String methodName, Boolean sendToPipe, Int32 timeout, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   at System.Data.SqlClient.SqlCommand.ExecuteNonQuery()
+   at DataLayer.VideosDAO.UploadVideo(VideosDO video) in C:\Users\Dana Marie\source\repos\Explosives\DataLayer\VideosDAO.cs:line 39
+------------------------------------------------------------------------------------------------------------------------------------------------------
+5/24/2018 2:20:57 PM - fatal - VideosDAO - CreateNewVideo
+Procedure or function 'UPLOAD_VIDEO' expects parameter '@VideoDescription', which was not supplied.
+   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString, Boolean isInternal, Boolean forDescribeParameterEncryption)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, Boolean inRetry, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   at System.Data.SqlClient.SqlCommand.InternalExecuteNonQuery(TaskCompletionSource`1 completion, String methodName, Boolean sendToPipe, Int32 timeout, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   at System.Data.SqlClient.SqlCommand.ExecuteNonQuery()
+   at DataLayer.VideosDAO.UploadVideo(VideosDO video) in C:\Users\Dana Marie\source\repos\Explosives\DataLayer\VideosDAO.cs:line 39

@@ -1,0 +1,60 @@
+﻿@using Explosives.Models;
+
+@model UserPO
+@{
+    ViewBag.Title = "Update";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h2>Update User</h2>
+@using (Html.BeginForm("Update", "Account", FormMethod.Post))
+{
+    @Html.HiddenFor(model => Model.UserID)
+    <div class="form-horizontal">
+        @Html.LabelFor(model => Model.Username)
+        <div class="form-group">
+            @Html.TextBoxFor(model => Model.Username, new { @class = "form-control" })
+            @Html.ValidationMessageFor(model => Model.Username, "", new { @class = "label label-danger" })
+        </div>
+    </div>
+    <div class="form-horizontal">
+        @Html.LabelFor(model => Model.Password)
+        <div class="form-group">
+            @Html.TextBoxFor(model => Model.Password, new { @class = "form-control" })
+            @Html.ValidationMessageFor(model => Model.Password, "", new { @class = "label label-danger" })
+        </div>
+    </div>
+    <div class="form-horizontal">
+        @Html.LabelFor(model => Model.FirstName)
+        <div class="form-group">
+            @Html.TextBoxFor(model => Model.FirstName, new { @class = "form-control" })
+            @Html.ValidationMessageFor(model => Model.FirstName, "", new { @class = "label label-danger" })
+        </div>
+    </div>
+    <div class="form-horizontal">
+        @Html.LabelFor(model => Model.LastName)
+        <div class="form-group">
+            @Html.TextBoxFor(model => Model.LastName, new { @class = "form-control" })
+            @Html.ValidationMessageFor(model => Model.LastName, "", new { @class = "label label-danger" })
+        </div>
+    </div>
+    <div class="form-horizontal">
+        @Html.LabelFor(model => Model.Email)
+        <div class="form-group">
+            @Html.TextBoxFor(model => Model.Email, new { @class = "form-control" })
+            @Html.ValidationMessageFor(model => Model.Email, "", new { @class = "label label-danger" })
+        </div>
+    </div>
+    <div class="form-horizontal" style="width:250px">
+        <div class="form-group">
+            @Html.DropDownListFor(Model => Model.RoleID, new List<SelectListItem> {
+                new SelectListItem {Value = "0", Text = "Select Role"},
+                new SelectListItem {Value = "3", Text = "User"},
+                new SelectListItem {Value = "2", Text = "Power User"},
+                new SelectListItem {Value = "1", Text = "Administrator"},
+                },
+            new { @class = "RoleID" })
+        </div>
+    </div>
+    <input type="submit" value="Update User" id="btnSubmit" />
+}

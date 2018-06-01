@@ -1,0 +1,6 @@
+C:\Users\Dana Marie\source\repos\Explosives\Business Layer\bin\Debug\Business Layer.dll
+C:\Users\Dana Marie\source\repos\Explosives\Business Layer\bin\Debug\Business Layer.pdb
+C:\Users\Dana Marie\source\repos\Explosives\Business Layer\obj\Debug\BusinessLayer.csprojResolveAssemblyReference.cache
+C:\Users\Dana Marie\source\repos\Explosives\Business Layer\obj\Debug\BusinessLayer.csproj.CoreCompileInputs.cache
+C:\Users\Dana Marie\source\repos\Explosives\Business Layer\obj\Debug\Business Layer.dll
+C:\Users\Dana Marie\source\repos\Explosives\Business Layer\obj\Debug\Business Layer.pdb
